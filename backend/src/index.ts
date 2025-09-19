@@ -1,6 +1,6 @@
 import express from 'express';
-// Fix: Use require for cors to ensure proper CommonJS module loading and prevent Express typing errors.
-import cors = require('cors');
+// Fix: Use a standard ES module import for 'cors'. The 'import = require' syntax is not allowed when targeting ECMAScript modules and was causing type errors with Express.
+import cors from 'cors';
 import 'dotenv/config';
 // Fix: Use require for PrismaClient to bypass potential TypeScript module resolution issues.
 const { PrismaClient } = require('@prisma/client');
