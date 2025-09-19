@@ -1,0 +1,5 @@
+{
+  "name": "PriceBeacon - Competitor Price Tracker",
+  "description": "Monitor competitors’ public product pages for price and stock changes. Features AI-powered selector suggestions, trend tracking, and data exports.",
+  "requestFramePermissions": []
+}
